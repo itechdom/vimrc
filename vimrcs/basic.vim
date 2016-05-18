@@ -50,6 +50,12 @@ set history=500
 filetype plugin on
 filetype indent on
 
+
+set encoding=utf-8
+set fileencoding=utf-8
+scriptencoding utf-8
+
+
 " Set to auto read when a file is changed from the outside
 set autoread
 
