@@ -139,3 +139,9 @@ let g:syntastic_go_checkers = ['go', 'golint', 'errcheck']
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:gitgutter_enabled=0
 nnoremap <silent> <leader>d :GitGutterToggle<cr>
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Force syntax highlighting for type script (fix for now)
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+au BufRead,BufNewFile *.ts set filetype=javascript
